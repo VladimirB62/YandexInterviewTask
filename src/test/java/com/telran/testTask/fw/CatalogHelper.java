@@ -1,4 +1,4 @@
-package com.telran.testTask;
+package com.telran.testTask.fw;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

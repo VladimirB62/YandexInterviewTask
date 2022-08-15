@@ -1,11 +1,12 @@
-package com.telran.testTask;
+package com.telran.testTask.fw;
 
+import com.telran.testTask.models.Item;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class ItemHelper extends HelperBase{
+public class ItemHelper extends HelperBase {
     public ItemHelper(WebDriver driver) {
         super(driver);
     }

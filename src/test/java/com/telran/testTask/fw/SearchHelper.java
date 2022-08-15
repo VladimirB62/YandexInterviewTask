@@ -1,9 +1,10 @@
-package com.telran.testTask;
+package com.telran.testTask.fw;
 
+import com.telran.testTask.fw.HelperBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SearchHelper extends HelperBase{
+public class SearchHelper extends HelperBase {
     public SearchHelper(WebDriver driver) {
         super(driver);
     }

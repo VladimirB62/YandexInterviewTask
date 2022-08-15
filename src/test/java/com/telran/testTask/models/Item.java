@@ -1,6 +1,4 @@
-package com.telran.testTask;
-
-import org.testng.annotations.BeforeMethod;
+package com.telran.testTask.models;
 
 public class Item {
     private String priceFrom;

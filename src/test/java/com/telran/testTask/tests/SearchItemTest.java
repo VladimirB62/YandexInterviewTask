@@ -1,5 +1,6 @@
-package com.telran.testTask;
+package com.telran.testTask.tests;
 
+import com.telran.testTask.models.Item;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
