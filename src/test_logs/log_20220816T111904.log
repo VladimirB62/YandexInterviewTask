@@ -1,0 +1,52 @@
+976  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -441602218
+1050 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1068 [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1072 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1074 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1085 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 2145600429
+1087 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1090 [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1090 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1092 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1103 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE SearchItemTest.searchItemTest()[pri:0, instance:com.telran.testTask.tests.SearchItemTest@25c8ef93] -1725507461
+1103 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1104 [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1104 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1105 [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+9752 [Test worker] INFO  com.telran.testTask.utils.MyListner - Start search By.cssSelector: [data-id='market']
+9830 [Test worker] INFO  com.telran.testTask.utils.MyListner - By.cssSelector: [data-id='market']was found
+10936 [Test worker] INFO  com.telran.testTask.utils.MyListner - Start search By.xpath: //span[text()='????????']
+15840 [Test worker] INFO  com.telran.testTask.utils.MyListner - By.xpath: //span[text()='????????']was found
+19032 [Test worker] INFO  com.telran.testTask.utils.MyListner - Start search By.cssSelector: [data-id='button-all']
+19307 [Test worker] INFO  com.telran.testTask.utils.MyListner - By.cssSelector: [data-id='button-all']was found
+19478 [Test worker] INFO  com.telran.testTask.utils.MyListner - Start search By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']
+19508 [Test worker] INFO  com.telran.testTask.utils.MyListner - By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']was found
+24171 [Test worker] INFO  com.telran.testTask.utils.MyListner - Start search By.cssSelector: [hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']
+34322 [Test worker] INFO  com.telran.testTask.utils.MyListner - We have a throwable --> no such element: Unable to locate element: {"method":"css selector","selector":"[hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-62VSDD3', ip: '192.168.0.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb6a54008362673060c0c20204eae5b
+*** Element info: {Using=css selector, value=[hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']}
+34325 [Test worker] INFO  com.telran.testTask.utils.MyListner - We have a throwable --> no such element: Unable to locate element: {"method":"css selector","selector":"[hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-62VSDD3', ip: '192.168.0.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb6a54008362673060c0c20204eae5b
+*** Element info: {Using=css selector, value=[hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']}
+34327 [Test worker] INFO  com.telran.testTask.utils.MyListner - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-62VSDD3', ip: '192.168.0.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb6a54008362673060c0c20204eae5b
+*** Element info: {Using=css selector, value=[hreft='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']}
+34733 [Test worker] INFO  com.telran.testTask.utils.MyListner - This is link with error screenshots/screen1178.png

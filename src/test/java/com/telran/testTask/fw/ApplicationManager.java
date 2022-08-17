@@ -1,13 +1,16 @@
 package com.telran.testTask.fw;
 
+import com.telran.testTask.utils.MyListner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    WebDriver driver;
+    //WebDriver driver;
 
+    EventFiringWebDriver driver;
     ItemHelper item;
     MarketHelper market;
     DepartmentHelper department;
@@ -44,7 +47,8 @@ public class ApplicationManager {
     }
 
     public void init() {
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
+        driver = new EventFiringWebDriver(new ChromeDriver());
         driver.get("https://yandex.ru/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -55,6 +59,8 @@ public class ApplicationManager {
         category = new CategoryHelper(driver);
         catalog = new CatalogHelper(driver);
         search = new SearchHelper(driver);
+
+        driver.register(new MyListner());
     }
 
 

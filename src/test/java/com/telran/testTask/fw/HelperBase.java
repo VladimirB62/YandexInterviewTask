@@ -1,8 +1,13 @@
 package com.telran.testTask.fw;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,5 +49,15 @@ public class HelperBase {
             driver.findElement(locator).sendKeys(text);
         }
 
+    }
+
+    public  void takeScreenshot(String pathToFile) {
+        var tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(pathToFile);
+        try {
+            Files.copy(tmp,screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
